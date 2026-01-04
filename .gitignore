@@ -20,3 +20,10 @@ dist/
 # OS files
 .DS_Store
 Thumbs.db
+
+notebooks/data/
+*.db
+*.sqlite
+*.sqlite3
+*.pdf
+*.docx
