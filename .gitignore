@@ -1,29 +1,61 @@
-# Python cache
+# =========================
+# Python
+# =========================
 __pycache__/
 *.py[cod]
 
+# =========================
 # Jupyter
+# =========================
 .ipynb_checkpoints/
 
-# Virtual environments
+# =========================
+# Virtual Environments
+# =========================
 .venv/
 venv/
 
-# Environment variables
+# =========================
+# Environment Variables (Secrets)
+# =========================
 .env
 
-# Build artifacts
+# =========================
+# Build / Packaging
+# =========================
 build/
 dist/
 *.egg-info/
 
-# OS files
+# =========================
+# OS Files
+# =========================
 .DS_Store
 Thumbs.db
 
-notebooks/data/
+# =========================
+# Databases & Local Storage
+# =========================
 *.db
 *.sqlite
 *.sqlite3
+
+# =========================
+# Documents & Large Files
+# =========================
 *.pdf
 *.docx
+
+# =========================
+# Vector DB / RAG Artifacts
+# =========================
+chroma/
+faiss/
+*.index
+*.pkl
+
+# =========================
+# Data (ignore raw, keep samples)
+# =========================
+notebooks/data/raw/
+notebooks/data/tmp/

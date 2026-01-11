@@ -4,6 +4,8 @@ faiss-cpu
 tiktoken
 langchain-community
 langchain_community
+langchain-huggingface
+langchain-openai
 chromadb
 langchain_core
 sentence-transformers
@@ -18,6 +20,7 @@ unstructured[xlsx]
 unstructured[docx]
 pandas
 openpyxl
-jq
-
+numpy
+matplotlib
+scikit-learn
 
