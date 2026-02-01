@@ -59,3 +59,10 @@ faiss/
 # =========================
 notebooks/data/raw/
 notebooks/data/tmp/
+
+
+# Vector database (auto-generated)
+notebooks/chroma_db/
+
+
+my_drive_listing.csv
